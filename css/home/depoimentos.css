@@ -60,10 +60,10 @@
     }
 }
 
-@media(max-width:400px){
+@media(max-width:500px){
     .depoimento p::before,
-.depoimento p::after {
-    content: none;
+    .depoimento p::after {
+    display: none;
 }
 }
 

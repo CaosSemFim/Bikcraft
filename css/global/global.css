@@ -33,3 +33,13 @@ img {
 img[src$=".jpg"] {
   border-radius: 4px;
 }
+
+
+@media(max-width: 250px){
+  body {
+    word-wrap: break-word;
+      white-space: normal;
+      overflow-wrap: break-word; /* Quebra de palavras longas */
+      word-wrap: break-word; /* Compatibilidade com versões mais antigas */
+  }  
+}
