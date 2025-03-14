@@ -1,0 +1,55 @@
+.bicicleta-bg:nth-child(even){
+    background-color: var(--cor-12);
+}
+
+.bicicleta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
+    padding-left: 50px;
+    gap: 15px;
+}
+
+.bicicleta-imagem{
+    display: grid;
+}
+
+.bicicleta img{
+    grid-area: 1/1;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.bicicleta span{
+    margin-top: 30px;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    grid-area: 1/1;
+    place-self: start end;
+    padding:8px 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+
+.bicicleta-conteudo h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.bicicleta-conteudo > p{
+    margin-bottom: 20px;
+}
+
+.bicicleta-beneficios li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.botao.seta{
+    margin-top:13px;
+}
+
