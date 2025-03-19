@@ -4,8 +4,8 @@
 
 .vantagens{
     padding: 20px;
-
 }
+
 
 .vantagens h2{
     margin: 30px 0px;
@@ -14,7 +14,8 @@
 .vantagens-lista{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+    gap: 50px;
+    padding: 50px;
     
 }
 
@@ -30,4 +31,10 @@
 
 .vantagens-lista li p{
     grid-column: 2;
+}
+
+@media(max-width:400px){
+    .vantagens-lista{
+        padding-left: 10px;
+    }
 }
