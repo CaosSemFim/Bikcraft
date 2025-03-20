@@ -1,8 +1,15 @@
+
+
 .form{
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
 }
+
+.col2{
+    grid-column: span 2;
+}
+
 
 .form input[type="text"],
 .form input[type="email"], 

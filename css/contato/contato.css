@@ -7,15 +7,11 @@
     gap: 30px;
 }
 
-label{
+.contato-desc label{
     display: block;
 }
 
 
-
-.col2{
-    grid-column: span 2;
-}
 
 .contato-desc, .contato-formulario {
     padding: 60px;

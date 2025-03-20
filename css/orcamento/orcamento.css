@@ -1,0 +1,116 @@
+#orcamento{
+    background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
+}
+
+
+.orcamento {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    padding-bottom: 120px;
+   
+}
+
+label[for="bikcraft"],
+label[for="seguro"]{
+    color: var(--cor-0);
+    
+}
+
+.orcamento-produto h2{
+    margin-bottom: 10px;
+}
+
+.orcamento-produto > label{
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: var(--cor-11);
+    margin-bottom: 60px;
+}
+
+
+.orcamento-desc button{
+    margin-top: 10px;
+    border: none;
+}
+
+.orcamento-conteudo label{
+    color: var(--cor-0);
+    margin:  0px;
+    padding: 10px 15px;
+    background-color: var(--cor-11);
+    display: block;
+    border-radius: 4px;
+}
+
+
+
+.orcamento-conteudo input{
+    pointer-events: none;
+    opacity: 0;
+}
+
+.orcamento input:checked + label{
+    background-color: var(--cor-0);
+    color: var(--cor-12);
+}
+
+.orcamento-conteudo{
+    margin-bottom: 40px;
+}
+
+.orcamento-conteudo label{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+   
+}
+
+.orcamento-conteudo label > span{
+    display: none;
+}
+
+.orcamento-conteudo input:checked  + label  span{
+    display: inline-block;
+}
+
+.orcamento-desc{
+    background-color: var(--cor-0);
+}
+
+.orcamento-produto input{
+    display: none;
+}
+
+.orcamento-produto{
+    background-color: var(--cor-12);
+}
+
+.orcamento-produto,.orcamento-desc{
+    padding: 60px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.orcamento h2{
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.orcamento h2::before{
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    background: var(--cor-p1);
+    left: -12px;
+    position: absolute;
+   
+
+}
+
+
+
+
+
+
