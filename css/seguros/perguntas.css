@@ -17,14 +17,19 @@
     background-color: var(--cor-1);
 }
 
-.perguntas dt{
+.perguntas dt button{
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     gap: 7px;
+    width: 100%;
+    text-align: start;
+    border: none;
+    background: none;
+    padding: 10px;
 }
 
-.perguntas dt::before{
+.perguntas dt button::before{
     content: "" ;
     display: inline-block;
     width: 12px;
@@ -36,7 +41,15 @@
     max-width: 70ch;
 }
 
-.perguntas dt::after{
+dd{
+    display: none;
+  }
+
+dt button:hover::after .ativa{
+    transform: rotate(180deg);
+}
+
+.perguntas dt button::after{
     content: "" ;
     display: inline-block;
     width: 14px;

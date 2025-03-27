@@ -32,6 +32,9 @@
     margin-bottom: 40px;
   }
 
+  .ativa{
+    display: block;
+  }
 
   .seguros-item span {
     grid-column: 2;
